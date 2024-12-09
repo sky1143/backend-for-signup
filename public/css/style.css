@@ -1,0 +1,23 @@
+.setup{
+    width: 500px;
+    background-color: violet;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    gap: 20px;
+   
+}
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Ensures the text color matches its surrounding */
+}
+
+a:focus {
+    outline: none; /* Removes focus outline (blue shade) */
+}
+
+body{
+    background-color: rgb(252, 214, 214);
+}
